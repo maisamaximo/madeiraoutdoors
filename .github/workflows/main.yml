@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build
-      run: ng build --configuration=production --base-href="https://maisamaximo.github.io/madeiraoutdoors/"
+        run: ng build --configuration=production --base-href="https://maisamaximo.github.io/madeiraoutdoors/"
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
