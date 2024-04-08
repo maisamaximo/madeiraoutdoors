@@ -1,6 +1,6 @@
 /* header.component.css */
 .navbar-brand img {
-  height: 80px; /* Altura do logo ajustada para 80px */
+  height: 80px;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -10,45 +10,42 @@
   transform: scale(1.1);
 }
 
-/* Ajusta o padding para os itens do nav para uma melhor visualização e espaçamento */
 .nav-link {
   padding: 1rem;
-  color: white; /* Cor do texto ajustada para branco */
+  color: white;
   transition: color 0.2s ease-in-out;
 }
 
 .nav-item {
-  margin-right: 1.4rem; /* Aumenta o espaçamento entre os itens do menu */
+  margin-right: 1.4rem;
 }
 
 .nav-item.dropdown:hover .dropdown-menu {
-  display: block; /* Mostra o dropdown ao passar o mouse no item do menu */
+  display: block;
 }
 
 .dropdown-menu {
-  background-color: #343a40; /* Cor de fundo do dropdown */
+  background-color: #343a40;
 }
 
 .dropdown-item {
-  color: white !important; /* Cor do texto do dropdown ajustada para branco */
+  color: white !important;
 }
 
 .dropdown-item:hover {
-  background-color: #495057; /* Cor de fundo do item do dropdown ao passar o mouse */
+  background-color: #495057;
 }
 
 .nav-link:hover,
 .fa-instagram:hover {
-  color: #F5CD03; /* Cor do texto ao passar o mouse */
+  color: #F5CD03;
 }
 
-/* Para o ícone do Instagram */
 .fa-instagram {
-  color: white; /* Cor do ícone ajustada para branco */
-  font-size: 1.5rem; /* Tamanho do ícone ajustado */
+  color: white;
+  font-size: 1.5rem;
 }
 
-/* Estilo para centralizar os itens do menu na navbar em telas grandes */
 @media (min-width: 992px) {
   .navbar-nav {
     display: flex;

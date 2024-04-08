@@ -8,16 +8,8 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
   standalone: true,
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
-  imports: [FontAwesomeModule, NgbDropdownModule] // Importe FontAwesomeModule aqui
+  imports: [FontAwesomeModule, NgbDropdownModule]
 })
 export class HeaderComponent {
-  faInstagram = faInstagram; // Disponibiliza o ícone para o template
- // Exemplo: nome do usuário, poderia ser usado para exibir um nome de usuário dinamicamente
- userName: string = 'Visitante';
-
- // Você pode adicionar métodos para lidar com ações no seu cabeçalho, como navegação ou autenticação
- navigateTo(section: string): void {
-   console.log(`Navegando para ${section}`);
-   // Implementação da navegação aqui
- }
+  faInstagram = faInstagram;
 }
