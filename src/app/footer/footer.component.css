@@ -1,0 +1,41 @@
+/* Estilos do footer */
+.footer {
+  background-color: red;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer img {
+  height: 40px; /* Altura do logo */
+}
+
+.footer h5 {
+  font-weight: bold;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+.footer ul li {
+  list-style-type: none;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #ccc;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+  margin-right: 10px; /* Espaçamento entre os ícones sociais */
+}
