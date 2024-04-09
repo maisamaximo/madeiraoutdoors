@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --background-dark: #c1c1c1;
+  --background-dark-1e: #1e1e1e;
+  --background-dark-17: #171717;
+  --background-light: #fafafa;
+  --color-white: #fff;
+  --color-black: #000;
+  --primary-color: #f2a200;
+  --primary-color-light: #f4b642;
+  --secondary-color: #367b2b;
+  --secondary-color-light: #4f9c41;
+  --font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.section-default {
+  height: 20rem;
+}

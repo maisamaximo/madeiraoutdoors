@@ -1,0 +1,72 @@
+/* header.component.css */
+.navbar-brand img {
+  height: 80px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-brand img:hover,
+.nav-link:hover,
+.fa-instagram:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  padding: 1rem;
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-item {
+  margin-right: 1.4rem;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: #495057;
+}
+
+.nav-link:hover,
+.fa-instagram:hover {
+  color: #F5CD03;
+}
+
+.fa-instagram {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar.bg-dark {
+  background-color: transparent !important; /* Fundo inicial transparente */
+  transition: background-color 0.4s ease-in-out; /* Suaviza a transição do fundo */
+}
+
+.navbar.bg-dark.menu-expanded, .navbar.bg-dark.scroll {
+  background-color: #212529 !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+
+  .navbar.bg-dark {
+    background-color: transparent !important; /* Ajuste conforme necessário */
+  }
+}

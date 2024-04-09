@@ -1,0 +1,48 @@
+.about-us {
+  background-color: #f9f9f9;
+}
+
+.about-us img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem; /* Estilo opcional para arredondar as bordas da imagem */
+}
+
+.about-us h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about-us p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.about-us .btn-primary {
+  background-color: #0056b3; /* Substitua pela cor primária do seu tema */
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+/* Estilos para a Seção do Vídeo do YouTube */
+.youtube-video-section {
+  padding: 40px 0;
+}
+
+.youtube-video-section .video-container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.youtube-video-section iframe {
+  width: 100%; /* Responsivo */
+  height: 515px; /* Altura correspondente para um aspect ratio de 16:9 */
+  border-radius: 0.25rem; /* Estilo opcional para arredondar as bordas do iframe */
+  border: none; /* Remove a borda do iframe */
+}
+
+@media (max-width: 576px) {
+  .youtube-video-section iframe {
+    height: 200px; /* Altura ajustada para dispositivos móveis */
+  }
+}

@@ -1,0 +1,9 @@
+.customize-trips {
+  padding: 40px 0;
+}
+
+.customize-trips .typeform {
+  border: none;
+  width: 100%;
+  height: 600px;
+}

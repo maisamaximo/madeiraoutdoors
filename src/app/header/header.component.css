@@ -1,59 +1,47 @@
-/* header.component.css */
-.navbar-brand img {
-  height: 80px;
-  transition: transform 0.2s ease-in-out;
+.header-container {
+  position: relative;
+  background-image: url('../../assets/photos/header.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Mantém o conteúdo centralizado verticalmente */
+  justify-content: center; /* Agora centraliza o conteúdo horizontalmente */
+  text-align: center; /* Centraliza o texto */
+  padding-left: 0; /* Removido para verdadeira centralização horizontal */
+  font-family: 'Poppins', sans-serif;
 }
 
-.navbar-brand img:hover,
-.nav-link:hover,
-.fa-instagram:hover {
-  transform: scale(1.1);
+.header-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Degradê preto */
+  z-index: 0;
 }
 
-.nav-link {
-  padding: 1rem;
+.header-content {
+  position: relative;
+  max-width: 500px;
+  z-index: 1;
+}
+
+.header-container h1 {
+  font-size: 4rem; /* Tamanho da fonte aumentado */
   color: white;
-  transition: color 0.2s ease-in-out;
+  margin-bottom: 4rem; /* Aumenta o espaçamento entre o título e o botão */
+  font-weight: 600;
 }
 
-.nav-item {
-  margin-right: 1.4rem;
-}
-
-.nav-item.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-.dropdown-menu {
-  background-color: #343a40;
-}
-
-.dropdown-item {
-  color: white !important;
-}
-
-.dropdown-item:hover {
-  background-color: #495057;
-}
-
-.nav-link:hover,
-.fa-instagram:hover {
-  color: #F5CD03;
-}
-
-.fa-instagram {
+.header-container button {
+  padding: 15px 50px; /* Ajustes no botão */
+  font-size: 1.2em;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
   color: white;
-  font-size: 1.5rem;
-}
-
-@media (min-width: 992px) {
-  .navbar-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .navbar-collapse {
-    justify-content: space-between;
-  }
+  border-radius: 5px; /* Arredondamento das bordas */
 }

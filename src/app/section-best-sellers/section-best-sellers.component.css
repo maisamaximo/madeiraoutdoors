@@ -1,0 +1,59 @@
+.best-sellers {
+  background-color: #f9f9f9;
+}
+
+.best-sellers h2 {
+  margin-bottom: 1rem;
+}
+
+.sales-card {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.sales-card .card-background {
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Aumento da altura da imagem */
+}
+
+.sales-card .card-footer {
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.sales-card .card-title {
+  font-weight: bold;
+}
+
+.sales-card .card-rating {
+  font-size: 0.9em;
+}
+
+.sales-card .card-discount {
+  font-weight: bold;
+  color: #333;
+}
+
+.sales-card .card-price {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.sales-card .btn-primary {
+  border: none;
+  background-color: #0056b3;
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .sales-card .card-background {
+    height: 300px; /* Altura ajustada para dispositivos móveis */
+  }
+}

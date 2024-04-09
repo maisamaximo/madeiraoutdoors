@@ -1,0 +1,18 @@
+<section class="blog py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Latest Blog Posts</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let post of blogPosts">
+        <div class="card mb-4">
+          <img [src]="post.imageUrl" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.summary }}</p>
+            <p class="text-muted">{{ post.date }}</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

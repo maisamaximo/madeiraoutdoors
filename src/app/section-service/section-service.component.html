@@ -1,0 +1,12 @@
+<section class="services-section">
+  <div class="container">
+    <h2>Why Choose Madeira Adventures?</h2>
+    <div class="services-container">
+      <div class="service-item" *ngFor="let service of services">
+        <fa-icon [icon]="service.icon"></fa-icon>
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>

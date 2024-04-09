@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-header',
   standalone: true,
+  imports: [],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css',
-  imports: [FontAwesomeModule, NgbDropdownModule]
+  styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  faInstagram = faInstagram;
+
 }

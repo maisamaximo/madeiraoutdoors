@@ -1,0 +1,15 @@
+<section class="our-experiences section-height" style="background-color: #f9f9f9;">
+  <h2 class="text-center">Our Experiences</h2>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3" *ngFor="let experience of experiences">
+              <div class="experience-card" [ngClass]="experience.imageClass">
+                  <div class="card-content">
+                      <h4>{{ experience.title }}</h4>
+                      <p>{{ experience.description }}</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

@@ -1,0 +1,36 @@
+.blog {
+  background-color: #f8f9fa;
+}
+
+.blog .card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.blog .card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.blog .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog .card-title {
+  font-size: 1.25rem;
+}
+
+.blog .card-text {
+  font-size: 1rem;
+}
+
+.blog .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog .btn-primary {
+  background-color: #007bff;
+  border: none;
+}

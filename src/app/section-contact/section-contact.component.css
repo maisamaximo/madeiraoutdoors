@@ -1,0 +1,40 @@
+.contact {
+  padding: 50px 0;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
+.contact label {
+  font-weight: bold;
+}
+
+.contact button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.contact img {
+  max-width: 100%;
+}

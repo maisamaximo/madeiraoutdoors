@@ -1,0 +1,44 @@
+.custom-trip-cta {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-trip-cta .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* Sobreposição escurecida */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-trip-cta .cta-content {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.custom-trip-cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.custom-trip-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.custom-trip-cta .btn-primary {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0056b3; /* Adapte para a cor do seu tema */
+  border: none;
+}
