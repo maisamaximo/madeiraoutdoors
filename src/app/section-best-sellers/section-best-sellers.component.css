@@ -18,7 +18,7 @@
 .sales-card .card-background {
   background-size: cover;
   background-position: center;
-  height: 400px; /* Aumento da altura da imagem */
+  height: 400px; 
 }
 
 .sales-card .card-footer {
@@ -54,6 +54,6 @@
 
 @media (max-width: 768px) {
   .sales-card .card-background {
-    height: 300px; /* Altura ajustada para dispositivos móveis */
+    height: 300px;
   }
 }

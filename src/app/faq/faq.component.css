@@ -1,0 +1,41 @@
+#faqAccordion {
+  font-family: "Exo 2", sans-serif;
+}
+
+.accordion-item {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+  background-color: #ffffff;
+  border: none;
+}
+
+.accordion-button {
+  color: #495057;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 0;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: orange;
+  background-color: #ffffff;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.accordion-body h4 {
+  font-weight: 600;
+}

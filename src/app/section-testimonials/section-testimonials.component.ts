@@ -21,25 +21,25 @@ export class SectionTestimonialsComponent {
       text: 'The hiking tour organized by Madeira Outdoors was simply breathtaking. The guides were knowledgeable and ensured we all had a safe yet thrilling experience. Can\'t wait to go back!',
       author: 'Jon Rundle',
       country: 'United States',
-      imageUrl: 'path-to-author-photo.jpg'
+      imageUrl: '/assets/photos/card-1.jpeg'
     },
     {
       text: 'The hiking tour organized by Madeira Outdoors was simply breathtaking. The guides were knowledgeable and ensured we all had a safe yet thrilling experience. Can\'t wait to go back!',
       author: 'Jon Rundle',
       country: 'United States',
-      imageUrl: 'path-to-author-photo.jpg'
+      imageUrl: '/assets/photos/card-1.jpeg'
     },
     {
       text: 'The hiking tour organized by Madeira Outdoors was simply breathtaking. The guides were knowledgeable and ensured we all had a safe yet thrilling experience. Can\'t wait to go back!',
       author: 'Jon Rundle',
       country: 'United States',
-      imageUrl: 'path-to-author-photo.jpg'
+      imageUrl: '/assets/photos/card-1.jpeg'
     },
     {
       text: 'The hiking tour organized by Madeira Outdoors was simply breathtaking. The guides were knowledgeable and ensured we all had a safe yet thrilling experience. Can\'t wait to go back!',
       author: 'Jon Rundle',
       country: 'United States',
-      imageUrl: 'path-to-author-photo.jpg'
+      imageUrl: '/assets/photos/card-1.jpeg'
     }
   ];
 }

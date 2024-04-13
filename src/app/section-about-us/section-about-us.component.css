@@ -5,7 +5,7 @@
 .about-us img {
   max-width: 100%;
   height: auto;
-  border-radius: 0.25rem; /* Estilo opcional para arredondar as bordas da imagem */
+  border-radius: 0.25rem;
 }
 
 .about-us h2 {
@@ -19,7 +19,7 @@
 }
 
 .about-us .btn-primary {
-  background-color: #0056b3; /* Substitua pela cor primária do seu tema */
+  background-color: #0056b3;
   border: none;
   padding: 0.5rem 1rem;
 }
@@ -35,14 +35,14 @@
 }
 
 .youtube-video-section iframe {
-  width: 100%; /* Responsivo */
-  height: 515px; /* Altura correspondente para um aspect ratio de 16:9 */
-  border-radius: 0.25rem; /* Estilo opcional para arredondar as bordas do iframe */
-  border: none; /* Remove a borda do iframe */
+  width: 100%;
+  height: 515px;
+  border-radius: 0.25rem;
+  border: none;
 }
 
 @media (max-width: 576px) {
   .youtube-video-section iframe {
-    height: 200px; /* Altura ajustada para dispositivos móveis */
+    height: 200px
   }
 }

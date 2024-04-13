@@ -8,11 +8,12 @@ import { SectionBlogComponent } from '../section-blog/section-blog.component';
 import { SectionTestimonialsComponent } from '../section-testimonials/section-testimonials.component';
 import { SectionCustomizeComponent } from '../section-customize/section-customize.component';
 import { SectionContactComponent } from '../section-contact/section-contact.component';
+import { FaqComponent } from '../faq/faq.component';
 
 @Component({
   selector: 'app-landing-page',
   standalone: true,
-  imports: [SectionServiceComponent, SectionOurExperiencesComponent, SectionAboutUsComponent, SectionBestSellersComponent, SectionCallToActionComponent, SectionBlogComponent, SectionTestimonialsComponent, SectionCustomizeComponent, SectionContactComponent],
+  imports: [SectionServiceComponent, SectionOurExperiencesComponent, SectionAboutUsComponent, SectionBestSellersComponent, SectionCallToActionComponent, SectionBlogComponent, SectionTestimonialsComponent, SectionCustomizeComponent, SectionContactComponent, FaqComponent],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css'
 })

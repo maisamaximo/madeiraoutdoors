@@ -14,7 +14,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5); /* Sobreposição escurecida */
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,6 +39,6 @@
 .custom-trip-cta .btn-primary {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #0056b3; /* Adapte para a cor do seu tema */
+  background-color: #0056b3;
   border: none;
 }
